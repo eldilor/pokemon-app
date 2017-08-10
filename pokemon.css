@@ -1,0 +1,72 @@
+.trainer-img {
+    position: absolute;
+    width: 140px;
+    height: 180px;
+    z-index: 999;
+}
+
+.me {
+    top: -180px;
+    left: 60px;
+}
+
+.rival {
+    right: 60px;
+    top: 0;
+}
+
+.arena {
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+}
+.bar {
+    height: 20px;
+    width: 250px;
+    background: #ddd;
+    border: 1px solid #000;
+    position: absolute;
+    text-align: right;
+}
+.hp-bar {
+    z-index: 99;
+    width: 160px;
+    background: #008000;
+}
+.energy-bar {
+    z-index: 99;
+    width: 110px;
+    background: #0000ff;
+}
+.bar span {
+    z-index: 999;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+}
+#my-pokemon,#rival-pokemon {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+}
+#my-pokemon {
+    bottom: 120px;
+    left: 260px;
+}
+#rival-pokemon {
+    top: 100px;
+    right: 290px;
+}
+.attack {
+    text-align: center;
+    border: 2px solid black;
+    background: #eee;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+}
+#game {
+    display: none;
+}
